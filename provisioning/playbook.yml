@@ -26,16 +26,6 @@
     - role: kypo-user-access
       kypo_user_access_password: 'kypo'
 
-- name: install maven
-  hosts:
-    - smart-meter
-    - concentrator
-  become: yes
-  apt:
-    update_cache: yes
-    pkg:
-       - maven
-          
 
  
 
