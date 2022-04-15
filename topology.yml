@@ -1,4 +1,4 @@
-name: client-server-infrastructure
+name: smartmeter-concentrator
 
 hosts:
   - name: smart-meter
